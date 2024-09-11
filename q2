@@ -1,0 +1,4 @@
+binary_input = input("Enter a binary string: ")
+ones = ''.join([c for c in binary_input if c == '1'])
+zeros = ''.join([c for c in binary_input if c == '0'])
+print(ones + zeros)
