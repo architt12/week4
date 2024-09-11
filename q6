@@ -1,0 +1,6 @@
+import numpy as np
+
+array1 = np.array([0, 10, 20, 40, 60, 80])
+array2 = np.array([10, 30, 40, 50, 70])
+exclusive_or = np.setxor1d(array1, array2)
+print(exclusive_or)
