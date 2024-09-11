@@ -1,0 +1,9 @@
+import numpy as np
+from collections import Counter
+
+print(np.__version__)
+
+user_input = input("Enter a list of integers or characters separated by spaces: ")
+data = user_input.split()
+freq = Counter(data)
+print(freq)
