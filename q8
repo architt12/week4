@@ -1,0 +1,10 @@
+import numpy as np
+
+matrix = np.array(eval(input("Enter a matrix (as a list of lists): ")))
+rank = np.linalg.matrix_rank(matrix)
+trace = np.trace(matrix)
+determinant = np.linalg.det(matrix)
+
+print("Rank:", rank)
+print("Trace:", trace)
+print("Determinant:", determinant)
